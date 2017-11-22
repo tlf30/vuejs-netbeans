@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package org.netbeans.modules.js.vuejs2;
+package org.netbeans.modules.js.vuejs2.lang;
 
 import java.io.IOException;
 import org.openide.awt.ActionID;
@@ -15,9 +10,7 @@ import org.openide.loaders.DataObject;
 import org.openide.loaders.DataObjectExistsException;
 import org.openide.loaders.MultiDataObject;
 import org.openide.loaders.MultiFileLoader;
-import org.openide.util.Lookup;
 import org.openide.util.NbBundle.Messages;
-import org.openide.windows.TopComponent;
 
 @Messages({
     "LBL_VueComponent_LOADER=Files of VueComponent"
@@ -25,7 +18,7 @@ import org.openide.windows.TopComponent;
 @MIMEResolver.ExtensionRegistration(
         displayName = "#LBL_VueComponent_LOADER",
         mimeType = "text/vue+html",
-        extension = {"vue"}
+        extension = {"vue", "VUE"}
 )
 @DataObject.Registration(
         mimeType = "text/vue+html",

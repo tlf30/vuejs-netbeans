@@ -1,4 +1,4 @@
-package org.netbeans.modules.js.vuejs2;
+package org.netbeans.modules.js.vuejs2.completion;
 
 import org.netbeans.modules.js.vuejs2.items.Vuejs2ModifierCompletionItem;
 import java.util.List;

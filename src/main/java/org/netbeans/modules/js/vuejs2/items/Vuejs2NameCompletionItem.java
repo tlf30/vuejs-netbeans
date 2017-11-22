@@ -9,7 +9,7 @@ import javax.swing.text.Document;
 import javax.swing.text.JTextComponent;
 import javax.swing.text.StyledDocument;
 import org.netbeans.api.editor.completion.Completion;
-import org.netbeans.modules.js.vuejs2.Match;
+import org.netbeans.modules.js.vuejs2.completion.Match;
 import static org.netbeans.modules.js.vuejs2.items.Vuejs2CompletionItem.fieldIcon;
 import org.netbeans.spi.editor.completion.CompletionResultSet;
 import org.netbeans.spi.editor.completion.CompletionTask;

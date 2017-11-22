@@ -1,4 +1,4 @@
-package org.netbeans.modules.js.vuejs2;
+package org.netbeans.modules.js.vuejs2.completion;
 
 import java.util.ArrayList;
 import java.util.List;
